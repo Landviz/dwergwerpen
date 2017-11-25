@@ -1,0 +1,38 @@
+<!doctype HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="lib/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="lib/general.css">
+	<script src="lib/w3jsaddons.js"></script>
+	{head}
+</head>
+<body>
+	<div class="w3-bar w3-gray">
+		<a href="." class="w3-bar-item w3-button topmenu-item">Home</a>
+		<a href="." class="w3-bar-item w3-button w3-hide-small topmenu-item">Over de opleiding</a>
+		<a href="." class="w3-bar-item w3-button w3-hide-small topmenu-item">Aanmelden</a>
+		<a href="." class="w3-bar-item w3-button w3-hide-small topmenu-item">Game</a>
+		{medewerkers_dropdown}
+		<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+	</div>
+
+	<div id="topmenu-small" class="w3-bar-block w3-light-gray w3-hide w3-hide-large w3-hide-medium w3-animate-opacity">
+		<a href="." class="w3-bar-item w3-button topmenu-item">Over de opleiding</a>
+		<a href="." class="w3-bar-item w3-button topmenu-item">Aanmelden</a>
+		<a href="." class="w3-bar-item w3-button topmenu-item">Game</a>
+		<a href="." class="w3-bar-item w3-button topmenu-item">Medewerkers</a>
+	</div>
+
+	<header>
+		<center><img src="images/logo.png"></center>
+	</header>
+
+	<div class="w3-bar w3-blue" style="height: 39px;">
+	</div>
+	<div class="w3-container w3-card-4 content w3-text-dark-grey" style="max-width: 1200px !important; margin: auto; padding-bottom: 20px; padding-top: 20px;">
+		{content}
+	</div>
+</body>
+</html>
+

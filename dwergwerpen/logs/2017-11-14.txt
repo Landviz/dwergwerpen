@@ -1,0 +1,4 @@
+09:06:48|Max logged in.
+09:07:06|Max added user Jesse with permissions 1
+09:07:14|Jesse logged in.
+09:07:17|Jesse logged in.

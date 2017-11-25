@@ -1,0 +1,13 @@
+07:52:13|Max logged in.
+07:52:56|Max added user Caleb with permissions 1
+07:53:17|Caleb logged in.
+07:53:47|Max logged in.
+07:54:06|Max edited value(s) of primary key 'home' in Maincontent
+09:24:40|Max logged in.
+09:26:02|Max edited value(s) of primary key 'home' in Maincontent
+01:28:38|Max logged in.
+07:58:17|Max logged in.
+07:58:39|Max added user Piet with permissions 1
+07:58:47|Piet logged in.
+07:59:05|Max logged in.
+07:59:48|Max edited value(s) of primary key 'home' in Maincontent

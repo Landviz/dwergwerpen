@@ -1,0 +1,28 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ScriptSpeler : MonoBehaviour {
+    //public float snelheid = in compiler zelf gesaved;
+    public float snelheid = 1f;
+    // Use this for initialization
+    void Start () {
+        transform.position = new Vector3(0f, 2.5f, 0f);
+	}
+
+    // Update is called once per frame
+    void Update() {
+        if (transform.position.x + Input.GetAxis("Horizontal") * snelheid * Time.deltaTime < 2.8f &&
+            transform.position.x + Input.GetAxis("Horizontal") * snelheid * Time.deltaTime > -2.8f)
+        {
+        transform.Translate(Input.GetAxis("Horizontal") * snelheid * Time.deltaTime, 0f, 0f);
+        }
+        if (transform.position.y + Input.GetAxis("Vertical") * snelheid * Time.deltaTime < 4.55f &&
+            transform.position.y + Input.GetAxis("Vertical") * snelheid * Time.deltaTime > -4.55f)
+        {
+        transform.Translate(0f, Input.GetAxis("Vertical") * snelheid * Time.deltaTime, 0f);
+        }
+
+    }
+        
+}

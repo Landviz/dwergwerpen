@@ -1,0 +1,29 @@
+11:33:56|Landviz logged in.
+01:02:46|Landviz logged in.
+01:14:19|Landviz failed adding user henk $sqlstring = INSERT INTO Login VALUES('henk','cd35258556c00d8a301dd0338ad20c7d21a17601d61e1c95509e66bdd40a055c','CNsSpVxiDyavjWwzOkHFUrXMbuelKRBcEIGJnTLPQqgYmAhtZofd','1'');
+01:15:46|Landviz added user henk with permissions 1
+01:16:25|Landviz added user hendrik with permissions 1
+01:18:15|Landviz added user kaasvreter with permissions 1
+01:18:44|Landviz added user Test with permissions 1
+01:18:56|Test logged in.
+01:19:46|Landviz logged in.
+01:19:55|Landviz failed adding user Test, user already exists
+01:20:04|Landviz failed adding user test, user already exists
+01:20:12|Landviz failed adding user TeSt, user already exists
+01:26:11|Moos failed adding user moos, user already exists
+01:27:03|Moos failed adding user moos, user already exists
+01:27:28|Moos failed adding user moos, user already exists
+01:27:43|Moos failed adding user moos, user already exists
+01:28:05|Moos failed adding user moos, user already exists
+01:30:04|Moos failed adding user moos, user already exists
+01:30:39|Moos failed adding user moos, user already exists
+01:30:43|Moos failed adding user moos, user already exists
+01:31:34|Moos failed adding user moos, user already exists
+01:31:44|Moos failed adding user moos, user already exists
+02:38:49|Moos edited value(s) of primary key 'login' in Maincontent
+02:39:19|Moos logged in.
+02:39:32|Moos added user Landviz with permissions 1
+02:39:42|Landviz logged in.
+02:44:09|Landviz logged in.
+02:44:54|Max logged in.
+02:46:04|Max logged in.
